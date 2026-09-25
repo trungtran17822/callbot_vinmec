@@ -157,3 +157,7 @@ html,body,.slide,.slide h1,.slide h2,.slide h3,.slide h4,.slide strong,.slide b,
 
 /* Version 12: edge-to-edge slides without the left accent border */
 .slide::before,.dark::before,.finale::before,.cover::before{display:none}
+
+/* Version 13: Vietnam online-booking channels */
+.vietnam-dashboard .vn-dashboard{height:330px;margin-top:18px}.booking-channels{display:grid;grid-template-columns:1.45fr repeat(4,1fr);margin-top:10px;border:1px solid var(--line);background:#fff}.booking-channels>div{min-height:70px;padding:11px 13px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}.booking-channels>div:last-child{border-right:0}.booking-channels .channel-title{color:#fff;background:var(--night)}.booking-channels small{margin-bottom:5px;color:#7fe0b8;font-size:8px;font-weight:800;letter-spacing:.12em}.booking-channels b{font-size:13px;line-height:1.25}.booking-channels strong{margin-bottom:4px;color:var(--emerald);font-size:11px}.booking-channels span{color:var(--muted);font-size:9px;line-height:1.35}.vietnam-dashboard .vn-takeaway{margin-top:9px;padding:8px 13px}.vietnam-dashboard .source-line{bottom:39px}
+@media(max-width:900px){.vietnam-dashboard .vn-dashboard{height:340px}.booking-channels{grid-template-columns:1.4fr repeat(4,1fr)}.booking-channels>div{padding:8px;min-height:66px}.booking-channels b{font-size:11px}.booking-channels span{font-size:8px}}
